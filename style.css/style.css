@@ -1,219 +1,52 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: grey;
+}
+
+.container {
+ width: 900px;
+ text-align: center;
+ margin: auto;
+ background-color: lightgrey;
+ margin-top: 80px;
+
+}
 
 
-.contenitoremain1 {
+img {
     height: 250px;
-    width:  800px;
-    background-color: #e6e6e6;
-
+    width: 200px;
+    object-fit: contain;
+    display: inline-block;
 }
 
-.cuore:hover {
-    text-align: center;
-    background-color: white;
-    border-radius: 50px;
-    bottom: 800px;
-    left: -100px;
-
-}
-
-
-.contenitoremain2 {
-    height: 250px;
-    width:  800px;
-    background-color: #e6e6e6;
-    position: relative;
-    right: 300px;
-
-}
-.minimini1 {
-    color: red;
-    text-align: center;
-    position: relative;
-    bottom: 8px;
-    left: 5px;
-
-}
-
-
-
-.minimini2 {
-    color: red;
-    text-align: center;
-    position: relative;
-    bottom: 8px;
-    left: 5px;
-
-}
-
-.minimini3 {
-    color: red;
-    text-align: center;
-    position: relative;
-    bottom: 8px;
-    left: 5px;
-
-
-}
-
-.contenitore1{
-    height: 250px;
-    width:  200px;
-    background-color: red;
-    position: relative;
-    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MXM72?wid=532&hei=582&fmt=png-alpha&qlt=80&.v=1572374686810); size: 10px 10px;
-
-
-}
-
-
-.contenitore2 {
-    height: 250px;
-    width:  200px;
-    background-color: blue;
-    position: relative;
-    margin-left: 300px;
-    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MXM72?wid=532&hei=582&fmt=png-alpha&qlt=80&.v=1572374686810); size: 10px 10px;;
-
-}
-
-.contenitore3 {
-    height: 250px;
-    width:  200px;
-    background-color: #ff0080;
-    position: relative;
-    margin-left: 300px;
-    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MXM72?wid=532&hei=582&fmt=png-alpha&qlt=80&.v=1572374686810); size: 10px 10px;;
-
-}
-
-.contenitore4 {
-    height: 250px;
-    width:  200px;
-    background-color: black;
-    position: relative;
-    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MXM72?wid=532&hei=582&fmt=png-alpha&qlt=80&.v=1572374686810); size: 10px 10px;;
-
-}
-
-
-.minimini4 {
-    color: red;
-    text-align: center;
-    position: relative;
-    bottom: 8px;
-    left: 5px;
-}
-
-
-
-.contenitore5 {
-    height: 250px;
-    width:  200px;
-    background-color: green;
-    position: relative;
-    margin-left: 300px;
-    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MXM72?wid=532&hei=582&fmt=png-alpha&qlt=80&.v=1572374686810); size: 10px 10px;;
-
-}
-
-
-.minimini5 {
-    color: red;
-    text-align: center;
-    position: relative;
-    bottom: 8px;
-    left: 5px;
-
-}
-
-.contenitore6 {
-    height: 250px;
-    width:  200px;
+.sconto {
+    font-style: oblique;
+    position: absolute;
+    top: 43px;
+    left: 245px;
     background-color: yellow;
-    position: relative;
-    margin-top: 50px;
-    margin-left: 300px;
-    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MXM72?wid=532&hei=582&fmt=png-alpha&qlt=80&.v=1572374686810); size: 10px 10px;;
 
 }
 
-.minimini6 {
+.cuore {
+
     color: red;
-    text-align: center;
-    position: relative;
-    bottom: 8px;
-    left: 5px;
-
+    font-size: 30px;
+    position: absolute;
+    top : 256px;
+    right: -242px;
+    display: none;
 
 }
 
-
-.mini1 {
-    height: 30px;
-    width:  50px;
-    background-color: white;
-    position: absolute;
-    left: 143px;
-    margin-top: 5px;
-    border-radius: 90px;
-
-
+.prodotto:hover .cuore {
+    display: block;
 }
-
-
-.mini2{
-
-    height: 30px;
-    width: 50px;
-    background-color: white;
-    position: absolute;
-    left: 143px;
-    margin-top: 5px;
-    border-radius: 90px;
-
-}
-
-
-
-.mini3 {
-    height: 30px;
-    width: 50px;
-    background-color: white;
-    position: absolute;
-    left: 143px;
-    margin-top: 5px;
-    border-radius: 90px;
-
-}
-
-.mini4 {
-    height: 30px;
-    width: 50px;
-    background-color: white;
-    position: absolute;
-    left: 143px;
-    margin-top: 5px;
-    border-radius: 90px;
-
-}
-
-.mini5 {
-    height: 30px;
-    width: 50px;
-    background-color: white;
-    position: absolute;
-    left: 143px;
-    margin-top: 5px;
-    border-radius: 90px;
-
-
-}
-
-.mini6 {
-    height: 30px;
-    width: 50px;
-    background-color: white;
-    position: absolute;
-    left: 143px;
-    margin-top: 5px;
-    border-radius: 90px;
