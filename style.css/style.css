@@ -7,46 +7,55 @@
 }
 
 body {
+    margin-top: 60px;
     background-color: grey;
 }
 
 .container {
- width: 900px;
- text-align: center;
- margin: auto;
- background-color: lightgrey;
- margin-top: 80px;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    border-radius: 5%;
+    padding-top: 5px;
 
 }
+.prodotto {
+    display:inline-block;
+    position: relative;
 
-
-img {
-    height: 250px;
+}
+.prodotto img {
     width: 200px;
+    height: 250px;
     object-fit: contain;
-    display: inline-block;
+    background-color: lightgrey;
+    
 }
-
 .sconto {
-    font-style: oblique;
     position: absolute;
-    top: 43px;
-    left: 245px;
-    background-color: yellow;
+    top: 0;
+    right: 5px;
+    top: 3px;
+    background-color: orange;
+    border-radius: 50px;
 
 }
-
 .cuore {
-
-    color: red;
+    color: orange;
     font-size: 30px;
     position: absolute;
-    top : 256px;
-    right: -242px;
-    display: none;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    display: grid;
 
 }
+
+
 
 .prodotto:hover .cuore {
     display: block;
+    color: red;
+
 }
